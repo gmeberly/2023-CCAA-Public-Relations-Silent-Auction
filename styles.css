@@ -1,0 +1,119 @@
+h1{
+  text-align: center;
+  font-weight: bold;
+}
+
+table, tr, td {
+  border: 1px solid;
+  text-align: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  background-color: white;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#links {
+  display: inline;
+  margin-left: 75px;
+  margin-right: 75px;
+  font-size: 18pt;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+#Committee {
+  text-align: right;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 22%;
+  margin: 20px auto;
+}
+
+.box {
+  text-align: center;
+}
+
+.button {
+  font-size: 1.5em;
+  padding: 25px, 35px;
+  color: greenyellow;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  background: #403e3d;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.wrapper {
+  margin: 70px auto;
+  padding: 20px;
+  background: #e7e7e7;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.wrapper .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttons {
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  header main nav table {
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
